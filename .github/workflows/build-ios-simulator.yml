@@ -20,10 +20,10 @@ jobs:
         run: |
           xcodebuild \
             -project MuleHazardMap.xcodeproj \
-            -target MuleHazardMap \
+            -scheme MuleHazardMap \
             -configuration Debug \
             -sdk iphonesimulator \
-            -derivedDataPath build \
+            -derivedDataPath ./build \
             CODE_SIGNING_ALLOWED=NO \
             build
 
