@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+		C856BEE2DAED40748884A4D0 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFC99F722504510A660689A /* AppConfig.swift */; };
+		6BFB68326E79402491028E20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56447C51228465AA307B700 /* ContentView.swift */; };
+		BBBFEC9D370745568C4BA2B1 /* MuleHazardMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 826E6BBE375C402185A964F3 /* MuleHazardMapApp.swift */; };
+		C353AB437C254903B95B5C72 /* MHMModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD93AD804C574EB8B475A730 /* MHMModels.swift */; };
+		6A7139A5378142EA99B8640F /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAD0878B034439DB7DDF3E4 /* APIClient.swift */; };
+		69AFC9CCFBEB4ABCA7E69CC7 /* AuthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB402BAA6A440B9A2BC335D /* AuthStore.swift */; };
+		6130222C597D4CFFAE9D1404 /* GoongClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265D49E95BE440C910A1B7C /* GoongClient.swift */; };
+		B7B98107855142D88EC22C2A /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C546641DF8E440998EA6197C /* KeychainStore.swift */; };
+		138969C44AD64EA89C7ED75A /* SyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE9B96F09734B52B150E002 /* SyncEngine.swift */; };
+		C5C3362D669C4EC2AA822E42 /* CheckinSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A3FC6584534C49B383CEBF /* CheckinSheet.swift */; };
+		19C6218AA6D24D289FAB2D6D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B7F1B414A64E178014484F /* LocationManager.swift */; };
+		563026513D9B44218533A12D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2BE4934BF2C42E99F73D53F /* LoginView.swift */; };
+		9635EDAE5B9F4B719F4487E7 /* MHMMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56D72A95E124990A71CFA55 /* MHMMapView.swift */; };
+		C789853204194972A6B33EC2 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF97D03F57146B691F519E1 /* MapScreen.swift */; };
+		3DFC99F722504510A660689A /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		E56447C51228465AA307B700 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		826E6BBE375C402185A964F3 /* MuleHazardMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuleHazardMapApp.swift; sourceTree = "<group>"; };
+		BD93AD804C574EB8B475A730 /* MHMModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMModels.swift; sourceTree = "<group>"; };
+		5BAD0878B034439DB7DDF3E4 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		3FB402BAA6A440B9A2BC335D /* AuthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStore.swift; sourceTree = "<group>"; };
+		9265D49E95BE440C910A1B7C /* GoongClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoongClient.swift; sourceTree = "<group>"; };
+		C546641DF8E440998EA6197C /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		8CE9B96F09734B52B150E002 /* SyncEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncEngine.swift; sourceTree = "<group>"; };
+		A2A3FC6584534C49B383CEBF /* CheckinSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinSheet.swift; sourceTree = "<group>"; };
+		B6B7F1B414A64E178014484F /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B2BE4934BF2C42E99F73D53F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E56D72A95E124990A71CFA55 /* MHMMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMMapView.swift; sourceTree = "<group>"; };
+		DCF97D03F57146B691F519E1 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		459B5C34289442548CF5F4AA /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		2AC35C7FF4C4456790DA27F5 /* Config.sample.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.sample.xcconfig; sourceTree = "<group>"; };
+		76DC1FA5D8324B3F96176234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85EAC3956EB5492BB07FC17D /* MuleHazardMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuleHazardMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90B11F548568441ABBDA69AB /* App */ = {isa = PBXGroup; children = (
+			3DFC99F722504510A660689A /* AppConfig.swift */,
+			E56447C51228465AA307B700 /* ContentView.swift */,
+			826E6BBE375C402185A964F3 /* MuleHazardMapApp.swift */,
+		); path = App; sourceTree = "<group>"; };
+		59BD0E17E5D94F9F88866F54 /* Models */ = {isa = PBXGroup; children = (
+			BD93AD804C574EB8B475A730 /* MHMModels.swift */,
+		); path = Models; sourceTree = "<group>"; };
+		25116A0E1E494F6B8B45332B /* Services */ = {isa = PBXGroup; children = (
+			5BAD0878B034439DB7DDF3E4 /* APIClient.swift */,
+			3FB402BAA6A440B9A2BC335D /* AuthStore.swift */,
+			9265D49E95BE440C910A1B7C /* GoongClient.swift */,
+			C546641DF8E440998EA6197C /* KeychainStore.swift */,
+			8CE9B96F09734B52B150E002 /* SyncEngine.swift */,
+		); path = Services; sourceTree = "<group>"; };
+		69AE351CD5E240B1B4F81A73 /* Views */ = {isa = PBXGroup; children = (
+			A2A3FC6584534C49B383CEBF /* CheckinSheet.swift */,
+			B6B7F1B414A64E178014484F /* LocationManager.swift */,
+			B2BE4934BF2C42E99F73D53F /* LoginView.swift */,
+			E56D72A95E124990A71CFA55 /* MHMMapView.swift */,
+			DCF97D03F57146B691F519E1 /* MapScreen.swift */,
+		); path = Views; sourceTree = "<group>"; };
+		58C8211B5E5C4E358EDA2262 /* Config */ = {isa = PBXGroup; children = (
+			459B5C34289442548CF5F4AA /* Config.xcconfig */,
+			2AC35C7FF4C4456790DA27F5 /* Config.sample.xcconfig */,
+			76DC1FA5D8324B3F96176234 /* Info.plist */,
+		); path = Config; sourceTree = "<group>"; };
+		E693BBCFB00F45AAA2BB865E /* Products */ = {isa = PBXGroup; children = (
+			85EAC3956EB5492BB07FC17D /* MuleHazardMap.app */,
+		); name = Products; sourceTree = "<group>"; };
+		E49C7856A45F4E4390AE9171 = {isa = PBXGroup; children = (
+			90B11F548568441ABBDA69AB /* App */,
+			59BD0E17E5D94F9F88866F54 /* Models */,
+			25116A0E1E494F6B8B45332B /* Services */,
+			69AE351CD5E240B1B4F81A73 /* Views */,
+			58C8211B5E5C4E358EDA2262 /* Config */,
+			E693BBCFB00F45AAA2BB865E /* Products */,
+		); sourceTree = "<group>"; };
+		08574DBB6D8D4875B3B7E668 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			C856BEE2DAED40748884A4D0 /* AppConfig.swift in Sources */,
+			6BFB68326E79402491028E20 /* ContentView.swift in Sources */,
+			BBBFEC9D370745568C4BA2B1 /* MuleHazardMapApp.swift in Sources */,
+			C353AB437C254903B95B5C72 /* MHMModels.swift in Sources */,
+			6A7139A5378142EA99B8640F /* APIClient.swift in Sources */,
+			69AFC9CCFBEB4ABCA7E69CC7 /* AuthStore.swift in Sources */,
+			6130222C597D4CFFAE9D1404 /* GoongClient.swift in Sources */,
+			B7B98107855142D88EC22C2A /* KeychainStore.swift in Sources */,
+			138969C44AD64EA89C7ED75A /* SyncEngine.swift in Sources */,
+			C5C3362D669C4EC2AA822E42 /* CheckinSheet.swift in Sources */,
+			19C6218AA6D24D289FAB2D6D /* LocationManager.swift in Sources */,
+			563026513D9B44218533A12D /* LoginView.swift in Sources */,
+			9635EDAE5B9F4B719F4487E7 /* MHMMapView.swift in Sources */,
+			C789853204194972A6B33EC2 /* MapScreen.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		C9302D0F02F14E6B9DAEA0A3 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+		); runOnlyForDeploymentPostprocessing = 0; };
+		6C15AEA4682F4F88A8079A3D /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+		); runOnlyForDeploymentPostprocessing = 0; };
+		5F928637AB8E4DDB97DD0E73 /* MuleHazardMap */ = {isa = PBXNativeTarget; buildConfigurationList = E9F0318B925E454FB9BCBDF3 /* Build configuration list for PBXNativeTarget "MuleHazardMap" */; buildPhases = (
+			08574DBB6D8D4875B3B7E668 /* Sources */,
+			C9302D0F02F14E6B9DAEA0A3 /* Frameworks */,
+			6C15AEA4682F4F88A8079A3D /* Resources */,
+		); buildRules = (
+		); dependencies = (
+		); name = MuleHazardMap; productName = MuleHazardMap; productReference = 85EAC3956EB5492BB07FC17D /* MuleHazardMap.app */; productType = "com.apple.product-type.application"; };
+		3075567BD0E8477F9B8426F1 /* Project object */ = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600; TargetAttributes = {5F928637AB8E4DDB97DD0E73 = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = DFAFF482694C40AB94829543 /* Build configuration list for PBXProject "MuleHazardMap" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base, ); mainGroup = E49C7856A45F4E4390AE9171; productRefGroup = E693BBCFB00F45AAA2BB865E /* Products */; projectDirPath = ""; projectRoot = ""; targets = (5F928637AB8E4DDB97DD0E73 /* MuleHazardMap */, ); };
+		CD8F192D776E45368DEF6987 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)", );
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			}; name = Debug; };
+		76589FA0710A44C7AFA42021 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+								GCC_C_LANGUAGE_STANDARD = gnu11;
+								GCC_NO_COMMON_BLOCKS = YES;
+												GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+								SDKROOT = iphoneos;
+								SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			}; name = Release; };
+		BC4EA4AD266B4D95B1DBA039 /* Debug */ = {isa = XCBuildConfiguration; baseConfigurationReference = 459B5C34289442548CF5F4AA /* Config.xcconfig */; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Debug; };
+		3F54E01EDB614AD080A46018 /* Release */ = {isa = XCBuildConfiguration; baseConfigurationReference = 459B5C34289442548CF5F4AA /* Config.xcconfig */; buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Config/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", );
+				MARKETING_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			}; name = Release; };
+		DFAFF482694C40AB94829543 /* Build configuration list for PBXProject "MuleHazardMap" */ = {isa = XCConfigurationList; buildConfigurations = (CD8F192D776E45368DEF6987 /* Debug */, 76589FA0710A44C7AFA42021 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		E9F0318B925E454FB9BCBDF3 /* Build configuration list for PBXNativeTarget "MuleHazardMap" */ = {isa = XCConfigurationList; buildConfigurations = (BC4EA4AD266B4D95B1DBA039 /* Debug */, 3F54E01EDB614AD080A46018 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 3075567BD0E8477F9B8426F1 /* Project object */;
+}

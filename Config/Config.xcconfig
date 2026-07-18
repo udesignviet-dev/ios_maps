@@ -1,0 +1,5 @@
+// Edit these values before building a real app.
+// Do not commit real API keys to a public repo.
+MHM_API_BASE_URL = https:/$()/your-domain.com/wp-json/mhm/v1
+GOONG_API_KEY = YOUR_GOONG_API_KEY
+PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.MuleHazardMap
